@@ -1,0 +1,27 @@
+{
+  "name": "sepay-studio-fullstack",
+  "version": "1.0.0",
+  "description": "Company Profile Web App",
+  "main": "server.js",
+  "engines": {
+    "node": "14.15.1",
+    "npm": "7.6.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm install && npm run build"
+  },
+  "author": "Atqa Munzir",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  background-color: #efefef;
+  padding: 3%;
+}
+
+.social-media-icon {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.copyright {
+  background-color: #202a4f;
+  color: #fff;
+  padding: 25px 10px 10px;
+}

@@ -1,0 +1,4 @@
+.slider-img {
+  height: calc(100vh - 64px);
+  object-fit: none;
+}
