@@ -32,20 +32,20 @@ export default function Footer() {
                 <span className='mx-2'>
                   <MatIco.Phone />
                 </span>
-                {"+628 1234 5678"}
+                {"+62 812-3206-3424"}
               </p>
             </div>
           </div>
           <div className='col-lg-4'>
             <h2>Follow Us</h2>
 
-            <a href='https://linkedin.com'>
+            <a href=' https://id.linkedin.com/company/sepaystudio'>
               <button className='social-media-icon mx-1'>
                 <MatIco.LinkedIn fontSize='large' />
               </button>
             </a>
 
-            <a href='https://instagram.com'>
+            <a href='https://www.instagram.com/sepaystudio/'>
               <button className='social-media-icon mx-1'>
                 <MatIco.Instagram fontSize='large' />
               </button>
@@ -57,7 +57,7 @@ export default function Footer() {
               </button>
             </a>
 
-            <a href='https://facebook.com'>
+            <a href='https://facebook.com/sepaystudio/'>
               <button className='social-media-icon mx-1'>
                 <MatIco.Facebook fontSize='large' />
               </button>

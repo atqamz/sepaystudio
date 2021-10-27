@@ -29,7 +29,7 @@ export default function Contact() {
     };
 
     axios.post("/api/contacts", newContact).then((res) => console.log(res.data));
-    window.location = "/";
+    window.location = "https://wa.me/+6281232063424";
   }
 
   return (
