@@ -29,7 +29,8 @@ export default function Contact() {
     };
 
     axios.post("/api/contacts", newContact).then((res) => console.log(res.data));
-    window.location = "https://wa.me/+6281232063424";
+    const msg = `Halo, nama saya ${newContact.name}. Saya ingin bertanya mengenai ${newContact.category}.`;
+    window.location = `https://wa.me/+6281232063424?text=${msg.replace(/ /g, "%20")}`;
   }
 
   return (
@@ -42,25 +43,25 @@ export default function Contact() {
 
             <form onSubmit={onSubmit}>
               <ServiceButton
-                value='gamification'
+                value='Gamification'
                 for='category-button-1'
                 label='Gamification'
                 onChange={onChange}
               />
               <ServiceButton
-                value='ar'
+                value='Augmented Reality'
                 for='category-button-2'
                 label='Augmented Reality'
                 onChange={onChange}
               />
               <ServiceButton
-                value='vr'
+                value='Virtual Reality'
                 for='category-button-3'
                 label='Virtual Reality'
                 onChange={onChange}
               />
               <ServiceButton
-                value='game'
+                value='Game'
                 for='category-button-4'
                 label='Game'
                 onChange={onChange}
