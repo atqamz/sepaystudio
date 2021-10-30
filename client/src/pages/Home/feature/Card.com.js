@@ -1,12 +1,15 @@
 import React from "react";
-import Button from "./Button.com";
 import CardOffer from "./CardOffer.com";
 
 export default function Card(props) {
   return (
-    <div className='card mx-3 my-5'>
-      <img src={props.src} alt={props.alt} className='card-image' />
-      <div className='card-body text-center'>
+    <div className='card mx-3 my-5 position-relative'>
+      <img
+        src={props.src}
+        alt={props.alt}
+        className='card-image position-absolute start-50 translate-middle'
+      />
+      <div className='card-body text-center card-detail'>
         <h2>{props.title}</h2>
         <p>What We Offers</p>
         <div className='text-start'>
@@ -17,7 +20,6 @@ export default function Card(props) {
           <CardOffer value='Navigation & Routes solution' />
           <CardOffer value='Entertaiment' />
         </div>
-        <Button to={props.to} />
       </div>
     </div>
   );

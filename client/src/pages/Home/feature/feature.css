@@ -1,12 +1,7 @@
-.feature {
-  margin-top: 30px;
+.card-spacer {
+  margin-top: 20px;
 }
 
-.feature-item {
-  padding-top: 70px;
-}
-
-.card-image {
-  margin-top: -115px;
-  margin-bottom: -20px;
+.card-detail {
+  margin-top: 70px;
 }

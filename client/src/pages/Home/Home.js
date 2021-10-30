@@ -4,7 +4,7 @@ import Feature from "./feature/Feature.com";
 import About from "./about/About.com";
 import Testimonial from "./testimonial/Testimonial.com";
 import Partner from "./partner/Partner.com";
-import Footer from "../../components/footerV1/Footer.com";
+import Footer from "../../components/footerV1/FooterV1.com";
 
 export default function Home() {
   return (

@@ -1,4 +1,3 @@
 .slider-img {
-  height: calc(100vh - 64px);
-  object-fit: none;
+  object-fit: scale-down;
 }

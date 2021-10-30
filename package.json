@@ -4,8 +4,8 @@
   "description": "Company Profile Web App",
   "main": "server.js",
   "engines": {
-    "node": "14.15.1",
-    "npm": "7.6.2"
+    "node": "14.17.6",
+    "npm": "7.24.2"
   },
   "scripts": {
     "start": "node server.js",

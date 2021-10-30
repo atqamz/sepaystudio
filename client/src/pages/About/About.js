@@ -1,17 +1,13 @@
 import React from "react";
 import "./About.css";
 
-import Footer from "../../components/footerV1/Footer.com";
+import Footer from "../../components/footerV1/FooterV1.com";
 
 export default function About() {
   return (
     <div className='about'>
       <div className='position-relative'>
-        <img className='img-fluid w-100' src='/assets/about_header.png' alt='' />
-        <div className='about-header position-absolute'>
-          <h1 className='fw-bold about-title'>Bring The Joy of Creatifity</h1>
-          <p className='mt-4'>Lorem ipsum dolor sit amet</p>
-        </div>
+        <img className='img-fluid w-100' src='/assets/about_header.svg' alt='' />
       </div>
       <div className='py-5'>
         <div className='container'>

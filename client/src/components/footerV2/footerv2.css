@@ -1,0 +1,14 @@
+.footerv2 {
+  background-color: #202a4f;
+  color: #fff;
+  padding: 20px 0 0;
+}
+
+.footerv2 a {
+  color: #fff;
+  margin-top: -13px;
+}
+
+.footerv2 a:hover {
+  color: #fff;
+}

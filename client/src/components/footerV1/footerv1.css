@@ -1,0 +1,24 @@
+.footerv1 {
+  background-color: #efefef;
+  color: black;
+  padding: 3%;
+}
+
+.social-media-icon a {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  color: black;
+  border: 1px solid black;
+}
+
+.social-media-icon a:hover {
+  color: black;
+  background-color: #efefef;
+}
+
+.copyright {
+  background-color: #202a4f;
+  color: #fff;
+  padding: 25px 10px 10px;
+}
