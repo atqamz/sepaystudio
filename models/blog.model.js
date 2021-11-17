@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const articleSchema = new Schema(
+const blogSchema = new Schema(
   {
+    headerImage: {},
     title: {
       type: String,
       required: true,
@@ -15,14 +16,11 @@ const articleSchema = new Schema(
       type: String,
       required: true,
     },
-    username: {
+    author: {
       type: String,
-    },
-    viewers: {
-      type: Number,
     },
   },
   { timestamps: true }
 );
 
-module.exports = Article = mongoose.model("Article", articleSchema);
+module.exports = Blog = mongoose.model("Blog", blogSchema);

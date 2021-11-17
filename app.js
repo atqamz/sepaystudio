@@ -7,6 +7,7 @@ const { MONGO_URI, MONGO_DB_NAME, NODE_ENV } = config;
 // API Route
 const contactRouter = require("./routes/api/contact.api");
 const productRouter = require("./routes/api/product.api");
+const fileRouter = require("./routes/api/file.api");
 
 // Depedencies imports
 const express = require("express");
@@ -35,6 +36,7 @@ mongoose
 // API Route
 app.use("/api/contacts", contactRouter);
 app.use("/api/products", productRouter);
+app.use("/api/file", fileRouter);
 
 // Production config
 if (NODE_ENV === "production") {
