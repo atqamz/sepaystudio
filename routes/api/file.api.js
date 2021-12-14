@@ -1,3 +1,4 @@
+const { networkInterfaces } = require("os");
 const router = require("express").Router();
 const upload = require("../../middlewares/imageUpload");
 
@@ -26,7 +27,11 @@ router
       return res.json({ msg: "Select a File!" });
     }
 
-    return res.json({ filename: req.file.filename });
+    return res.json({
+      fileUri: `${req.protocol + "://" + req.get("host") + req.originalUrl}/${
+        req.file.filename
+      }`,
+    });
   })
 
   // @method    DELETE
